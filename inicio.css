@@ -4,20 +4,15 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+   /* border:1px solid blue;*/
 }
 
 body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
+    
 }
 
-.wave{
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	height: 100%;
-	z-index: -1;
-}
 
 .container{
     width: 100vw;
@@ -92,9 +87,9 @@ form{
 .input-div > div > h5{
 	position: absolute;
 	left: 10px;
-	top: 50%;
+	top: 0%;
 	transform: translateY(-50%);
-	color: #999;
+	color: rgb(67, 196, 67);
 	font-size: 18px;
 	transition: .3s;
 }
@@ -142,6 +137,7 @@ form{
 	padding: 0.5rem 0.7rem;
 	font-size: 1.2rem;
 	color: #555;
+    text-transform: uppercase;
 	font-family: 'poppins', sans-serif;
 }
 
