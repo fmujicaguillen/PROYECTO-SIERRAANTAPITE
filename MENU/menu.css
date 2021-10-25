@@ -7,12 +7,13 @@
 .menuCSS3 a {
     display: block;
     padding: 2em;
-    background-color: #F9B53C;
+    background-color: #0848be;
     text-decoration: none;
-    color: #191C26;
+    /* color: #191C26; */
+    COLOR: WHITE;
 }
 .menuCSS3 a:hover {
-    background-color: #CC673B;
+    background-color: #58b1ec;
 }
 .menuCSS3 ul li ul {
     display: none;

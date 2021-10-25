@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body>
+    <header>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./1.jpg" alt="Los Angeles" class="d-block" style="width: 100%">
+    </div>
+    <div class="carousel-item">
+      <img src="./2.jpg" alt="Chicago" class="d-block" style="width:100% ">
+    </div>
+    <div class="carousel-item">
+      <img src="./3.jpg" alt="New York" class="d-block" style="width:100% ">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Movimiento de Personal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Fotochecks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Licencias</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Temperatura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">POSTA MEDICA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">MANTENIMIENTO</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+</header>
+
+<div class="container mt-3">
+    <h2>Registrar Trabajador</h2>
+    <form action="/action_page.php">
+      <div class="mb-3 mt-3">
+        <label for="email">Nombres:</label>
+        <!-- <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"> -->
+        <input type="text" class="form-control" placeholder="Ingrese los Nombres">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="email">Apellidos:</label>
+        <!-- <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"> -->
+        <input type="text" class="form-control" placeholder="Ingrese los Apellidos">
+      </div>
+
+      <label for="browser" class="form-label">Empresa</label>
+      <input class="form-control" list="browsers" name="browser" id="browser">
+      <datalist id="browsers">
+        <option value="Sierra Antapite">
+        <option value="Gemin">
+        <option value="Liderman">
+        <option value="Panaservice">
+        <option value="Pio GUillen">
+      </datalist>
+
+      <label for="browser1" class="form-label">Area</label>
+      <input class="form-control" list="browsers" name="browser" id="browser">
+      <datalist id="browsers1">
+        <option value="Mina">
+        <option value="Planeamiento">
+
+      </datalist>
+
+      <label for="browser" class="form-label">Condición</label>
+      <input class="form-control" list="browsers" name="browser" id="browser">
+      <datalist id="browsers">
+        <option value="NUEVO">
+        <option value="VISITA">
+
+      </datalist>
+
+
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
